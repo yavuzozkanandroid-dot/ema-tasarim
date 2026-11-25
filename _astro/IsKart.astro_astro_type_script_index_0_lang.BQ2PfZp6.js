@@ -1,0 +1,1 @@
+import{n as e,r as t,s as n}from"./site.CRg32YQH.js";n.push(()=>{!t()&&matchMedia(`(hover: hover)`).matches&&e(`.goz`).forEach(e=>{let t=e.querySelector(`video`);t&&(e.addEventListener(`mouseenter`,()=>{t.src||=t.dataset.src,t.play().then(()=>t.classList.add(`oynuyor`),()=>{})}),e.addEventListener(`mouseleave`,()=>{t.classList.remove(`oynuyor`),t.pause()}))})});
